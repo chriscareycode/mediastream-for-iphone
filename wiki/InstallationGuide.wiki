@@ -41,8 +41,8 @@ http://www.smarty.net/quick_start.php
 
 ==Install files in the application folder==
 
-  * mediastream/ciui-0.2/*
-  * mediastream/images/*
+  * mediastream/ciui-0.2/
+  * mediastream/images/
   * mediastream/about.php
   * mediastream/i_functions.php
   * mediastream/i_settings.php.dist
