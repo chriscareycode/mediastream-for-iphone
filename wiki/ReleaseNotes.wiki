@@ -1,13 +1,15 @@
-#summary One-sentence summary of this page.
+#summary Release Notes.
 
-= Introduction =
+= MediaStream for iPhone =
+Copyright 2008 Chris Carey (http://chriscarey.com). 
+This program is distributed under the terms of the GNU General Public License
 
-Add your content here.
+== Contact ==
+Contact me at *chris.carey @ gmail.com*
+or *chris @ chriscarey.com* if you need assistance.
 
+== Development Change Log ==
 
-= Details =
+===2008-04-05 (v0.01 release)===
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Initial Release
