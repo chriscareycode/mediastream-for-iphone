@@ -19,6 +19,8 @@ In your apache conf file add:
 Alias /media /somewhere/where/your/media/root/is
 }}}
 
+This should match the path in i_settings.php for g_media_folder
+
 *You must restart apache for the settings to take effect*
 
 
