@@ -10,6 +10,6 @@ or *chris @ chriscarey.com* if you need assistance.
 
 == Development Change Log ==
 
-===2008-04-05 (v0.01 release)===
+===2008-05-17 (v0.01 release)===
 
 Initial Release
