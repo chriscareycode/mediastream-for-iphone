@@ -1,0 +1,55 @@
+### MediaStream for iPhone ###
+
+Copyright 2008 Chris Carey (http://chriscarey.com).
+This program is distributed under the terms of the GNU General Public License
+
+## Introduction ##
+
+**This software is not a native iPhone app.** It is a web application which is installed on your server. You access the software by using your iPhone web browser and hitting a URL on your server.
+
+## Apache Setup ##
+
+You need to set up a /media/ Alias for watching videos.
+
+In your apache conf file add:
+```
+Alias /media /somewhere/where/your/media/root/is
+```
+
+This should match the path in i\_settings.php for g\_media\_folder
+
+**You must restart apache for the settings to take effect**
+
+
+## Dependency Install ##
+
+  * Install Smarty on your web server. Download Smarty at: http://www.smarty.net or Debian based systems: **apt-get install smarty**
+  * Install php-curl. Debian based systems: **apt-get install php5-curl**
+
+## Set up Smarty Directories ##
+
+Follow the section SETUP SMARTY DIRECTORIES in the quick start guide
+http://www.smarty.net/quick_start.php
+
+## Install Smarty Templates in smarty templates folder ##
+
+  * templates/mediastream/main.tpl
+  * templates/mediastream/media.tpl
+
+## Install files in the application folder ##
+
+  * mediastream/ciui-0.2/
+  * mediastream/images/
+  * mediastream/about.php
+  * mediastream/i\_functions.php
+  * mediastream/i\_settings.php.dist
+  * mediastream/index.php
+  * mediastream/media.php
+
+## Customize i\_settings.php ##
+
+  * copy i\_settings.php.dist to i\_settings.php
+
+You must edit this file with correct paths and options
+
+## All Done!! ##
